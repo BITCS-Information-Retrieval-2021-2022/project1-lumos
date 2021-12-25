@@ -14,7 +14,7 @@ import random
 
 
 def log(str):
-    with open("../url.log", "a") as f:
+    with open("url.log", "a") as f:
         f.write(str)
 
 
