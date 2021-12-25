@@ -267,7 +267,6 @@ datetime
 ### 1 搭建
 #### 1.1 环境依赖
 ```
-software
 ElasticSearch-7.15.2
 Kibana-7.15.2
 Python libraries:
