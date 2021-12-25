@@ -1,0 +1,76 @@
+{
+        "settings": {
+            "analysis": {
+                "normalizer": {
+                    "my_normalizer": {
+                        "type": "custom",
+                        "filter": ["lowercase", "asciifolding"]
+                    }
+                }
+            }
+        },
+        "mappings": {
+            "properties": {
+                "title": {
+                    "type": "keyword",
+                    "index": "true",
+                    "normalizer": "my_normalizer"
+                },
+                "abstract": {
+                    "type": "text",
+                    "index": "true"
+
+                },
+                "authors": {
+                    "type": "keyword",
+                    "index": "true",
+                    "normalizer": "my_normalizer"
+                },
+                "doi": {
+                    "type": "text",
+                    "index": "false"
+                },
+                "url": {
+                    "type": "text",
+                    "index": "false"
+                },
+                "year": {
+                    "type": "integer"
+                },
+                "month": {
+                    "type": "text"
+                },
+                "type": {
+                    "type": "keyword"
+                },
+                "venue": {
+                    "type": "keyword"
+                },
+                "source": {
+                    "type": "keyword"
+                },
+                "video_url": {
+                    "type": "text"
+                },
+                "video_path": {
+                    "type": "text"
+                },
+                "thumbnail_url": {
+                    "type": "text"
+                },
+                "pdf_url": {
+                    "type": "text"
+                },
+                "pdf_path": {
+                    "type": "text"
+                },
+                "inCitations": {
+                    "type": "long"
+                },
+                "outCitations": {
+                    "type": "long"
+                }
+            }
+
+        }
+    }
