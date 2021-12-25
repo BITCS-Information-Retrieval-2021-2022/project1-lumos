@@ -12,7 +12,7 @@ from selenium import webdriver
 
 
 def log(str):
-    with open("../basicInfo.log", "a") as f:
+    with open("basicInfo.log", "a") as f:
         f.write(str)
     f.close()
 
