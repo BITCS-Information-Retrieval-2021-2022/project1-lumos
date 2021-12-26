@@ -373,7 +373,7 @@ ElasticSearch内部采用索引(Index)的结构存储数据，
         }
     }
 ```
-####2.2运行方法
+#### 2.2运行方法
 执行如下指令即可完成ElasticSearch索引创建以及数据迁移。
 ```
 python insert.py
