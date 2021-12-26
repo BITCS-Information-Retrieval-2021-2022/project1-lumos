@@ -292,7 +292,7 @@ host = 10.108.18.24 //数据库所在服务器地址
 port = 27017 //访问数据库端口
 ```
 ### 2 创建索引及数据迁移
-####2.1索引创建
+#### 2.1索引创建
 ElasticSearch内部采用索引(Index)的结构存储数据，
 可以通过修改index_template.json达到修改索引结构从而实现对ElasticSearch中数据的检索功能修改的目的。
 对于字符串型的数据，分成text和keyword两种类型，其中keyword用于可视化情景筛选聚合，text用于全文检索。
@@ -374,7 +374,7 @@ ElasticSearch内部采用索引(Index)的结构存储数据，
         }
     }
 ```
-####2.2运行方法
+#### 2.2运行方法
 执行如下指令即可完成ElasticSearch索引创建以及数据迁移。
 ```
 python insert.py
@@ -383,14 +383,14 @@ python insert.py
 运行Kibana并访问localhost:5601即可进行检索和数据可视化分析。
 
 + 可视化界面展示来自不同站点的论文数目，不同年份的论文示例
-![可视化界面-1](..\pic\可视化界面-1.jpg "dashboard1")
+![可视化界面-1](pic/可视化界面-1.jpg "dashboard1")
 
 + 可视化界面展示作者云图以及期刊和会议论文比例示例
-![可视化界面-2](.\pic\可视化界面-2.jpg "dashboard2")
+![可视化界面-2](pic/可视化界面-2.jpg "dashboard2")
 
 + 执行检索结果示例
 
-![检索界面](.\pic\检索界面-1.jpg "dashboard2")
+![检索界面](pic/检索界面-1.jpg "dashboard2")
 
 
 # project1-lumos
