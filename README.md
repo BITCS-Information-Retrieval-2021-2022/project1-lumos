@@ -383,14 +383,14 @@ python insert.py
 运行Kibana并访问localhost:5601即可进行检索和数据可视化分析。
 
 + 可视化界面展示来自不同站点的论文数目，不同年份的论文示例
-![可视化界面-1](pic\可视化界面-1.jpg "dashboard1")
+![可视化界面-1](pic/可视化界面-1.jpg "dashboard1")
 
 + 可视化界面展示作者云图以及期刊和会议论文比例示例
-![可视化界面-2](pic\可视化界面-2.jpg "dashboard2")
+![可视化界面-2](pic/可视化界面-2.jpg "dashboard2")
 
 + 执行检索结果示例
 
-![检索界面](.\pic\检索界面-1.jpg "dashboard2")
+![检索界面](.\pic/检索界面-1.jpg "dashboard2")
 
 
 # project1-lumos
