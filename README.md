@@ -390,7 +390,7 @@ python insert.py
 
 + 执行检索结果示例
 
-![检索界面](.\pic/检索界面-1.jpg "dashboard2")
+![检索界面](pic/检索界面-1.jpg "dashboard2")
 
 
 # project1-lumos
