@@ -1,0 +1,7 @@
+db = paper
+host = 10.108.18.24
+port = 27017
+username = IR
+psw = 123456
+es_path = localhost
+es_port = 9200
